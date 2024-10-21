@@ -1,3 +1,3 @@
 #!/bin/bash
 
-https://github.com/altuga/mutation-testing-lab
+mvn clean compile org.pitest:pitest-maven:mutationCoverage
